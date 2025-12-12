@@ -1,157 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
     <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
 
     <header>
-    <div class="container">
-      <div class="header-wrapper">
-        
-        <!-- Left Content -->
-        <div class="header-content">
-          <h1>It's good <br>tea time at The <br>Tea House</h1>
-          <p>Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste Buds.</p>
-          
-          <a href="#featured" class="btn-explore">
-            Explore More
-            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </a>
-        </div>
+        <div class="container">
+            <div class="header-wrapper">
 
-        <!-- Right Image + Rating Card -->
-        <div class="header-image">
-          <img src="https://img.freepik.com/premium-photo/steaming-cup-tea-with-slice-lemon-leaves-black-background_1022970-29490.jpg?uid=R225953803&ga=GA1.1.638220793.1764174460&semt=ais_hybrid&w=740&q=80" alt="Tea Banner" />
-          
-          <div class="rating-card">
-            <img src="https://raw.githubusercontent.com/shaharia4455/tea-hous-website/main/images/star.png" alt="star">
-            <div>
-              <div>
-              <p class="rating-number">5.00</p>
-              <p class="rating-text">Trust Pilot Ratings</p>
+                <!-- Left Content -->
+                <div class="header-content">
+                    <h1>It's good <br>tea time at The <br>Tea House</h1>
+                    <p>Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste Buds.</p>
+
+                    <a href="#featured" class="btn-explore">
+                        Explore More
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Right Image + Rating Card -->
+                <div class="header-image">
+                    <img src="https://img.freepik.com/premium-photo/steaming-cup-tea-with-slice-lemon-leaves-black-background_1022970-29490.jpg?uid=R225953803&ga=GA1.1.638220793.1764174460&semt=ais_hybrid&w=740&q=80"
+                        alt="Tea Banner" />
+
+                    <div class="rating-card">
+                        <img src="https://raw.githubusercontent.com/shaharia4455/tea-hous-website/main/images/star.png"
+                            alt="star">
+                        <div>
+                            <div>
+                                <p class="rating-number">5.00</p>
+                                <p class="rating-text">Trust Pilot Ratings</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-          </div>
+    </header>
+    <!-- Featured Products Section -->
+    <section id="featured">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our <span class="gradient-text">Featured</span> Products</h2>
+                <p>Discover our premium selection of handcrafted teas from the world's finest estates.</p>
+            </div>
+
+            <div class="products-grid">
+
+                <!-- Card 1 -->
+                <div class="product-card">
+                    <div class="product-icon icon-milk">
+                        <i class="fas fa-mug-hot fa-2x" style="color: white; "></i>
+                    </div>
+                    <h3>Classic Milk Tea</h3>
+                    <p>Smooth and creamy with rich milk froth</p>
+                    <div class="price">$4.99</div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="product-card">
+                    <div class="product-icon icon-black">
+                        <i class="fas fa-leaf fa-2x" style="color: white;"></i>
+                    </div>
+                    <h3>Premium Black Tea</h3>
+                    <p>Bold flavors with perfect balance</p>
+                    <div class="price">$5.99</div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="product-card">
+                    <div class="product-icon icon-lemon">
+                        <i class="fas fa-lemon fa-2x" style="color: white;"></i>
+                    </div>
+                    <h3>Refreshing Lemon Tea</h3>
+                    <p>Zesty citrus with natural sweetness</p>
+                    <div class="price">$4.49</div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="product-card">
+                    <div class="product-icon icon-green">
+                        <i class="fas fa-spa fa-2x" style="color: white;"></i>
+                    </div>
+                    <h3>Organic Green Tea</h3>
+                    <p>Pure and delicate with health benefits</p>
+                    <div class="price">$6.99</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- NEW SECTION 1: Tea Pairing Guide -->
+    <section class="pairing-section">
+        <div class="pairing-title">
+            <h2><span>Perfect</span> Pairings</h2>
+            <p>Elevate your tea experience with our expert pairing recommendations.</p>
         </div>
 
-      </div>
-    </div>
-  </header>
-  <!-- Featured Products Section -->
-  <section id="featured">
-    <div class="container">
-      <div class="section-title">
-        <h2>Our <span class="gradient-text">Featured</span> Products</h2>
-        <p>Discover our premium selection of handcrafted teas from the world's finest estates.</p>
-      </div>
+        <div class="pairing-grid">
 
-      <div class="products-grid">
+            <!-- Item 1 -->
+            <div class="pairing-card">
+                <div class="pairing-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                        alt="Scones">
+                    <div class="overlay"></div>
+                </div>
+                <h3>English Breakfast</h3>
+                <p class="pair-desc">Scones & Clotted Cream</p>
+                <span class="tag classic">Classic</span>
+            </div>
 
-        <!-- Card 1 -->
-        <div class="product-card">
-          <div class="product-icon icon-milk">
-            <i class="fas fa-mug-hot fa-2x" style="color: white; "></i>
-          </div>
-          <h3>Classic Milk Tea</h3>
-          <p>Smooth and creamy with rich milk froth</p>
-          <div class="price">$4.99</div>
+            <!-- Item 2 -->
+            <div class="pairing-card">
+                <div class="pairing-img-wrapper">
+                    <img src="https://img.freepik.com/premium-photo/tea-cup-table-against-black-background_1048944-20153494.jpg?uid=R225953803&ga=GA1.1.638220793.1764174460&semt=ais_hybrid&w=740&q=80"
+                        alt="Chocolate">
+                    <div class="overlay"></div>
+                </div>
+                <h3>Earl Grey</h3>
+                <p class="pair-desc">Dark Chocolate</p>
+                <span class="tag purple">Sophisticated</span>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="pairing-card">
+                <div class="pairing-img-wrapper">
+                    <img src="https://img.freepik.com/premium-photo/tea-cup-lemon-melissa-tea_263357-2033.jpg?uid=R225953803&ga=GA1.1.638220793.1764174460&semt=ais_hybrid&w=740&q=80"
+                        alt="Salmon">
+                    <div class="overlay"></div>
+                </div>
+                <h3>Green Tea</h3>
+                <p class="pair-desc">Smoked Salmon</p>
+                <span class="tag green">Healthy</span>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="pairing-card">
+                <div class="pairing-img-wrapper">
+                    <img src="https://img.freepik.com/premium-photo/traditional-indian-drink-turmeric-golden-milk_926199-2461502.jpg?uid=R225953803&ga=GA1.1.638220793.1764174460&semt=ais_hybrid&w=740&q=80"
+                        alt="Cheese">
+                    <div class="overlay"></div>
+                </div>
+                <h3>Chai Tea</h3>
+                <p class="pair-desc">Spiced Cookies</p>
+                <span class="tag red">Warm</span>
+            </div>
+
         </div>
+    </section>
 
-        <!-- Card 2 -->
-        <div class="product-card">
-          <div class="product-icon icon-black">
-            <i class="fas fa-leaf fa-2x" style="color: white;"></i>
-          </div>
-          <h3>Premium Black Tea</h3>
-          <p>Bold flavors with perfect balance</p>
-          <div class="price">$5.99</div>
+
+    <!-- GREAT TEA SECTION -->
+    <section class="great-tea-section">
+        <div class="container tea-flex">
+
+            <!-- LEFT IMAGES GRID -->
+            <div class="tea-grid">
+                <div class="box box-img box-light-1 row-1">
+                    <img src="https://img.freepik.com/premium-photo/high-angle-view-orange-slices-with-black-coffee-cutting-board-against-black-background_1048944-18334385.jpg?uid=R225953803&ga=GA1.1.638220793.1764174460&semt=ais_hybrid&w=740&q=80"
+                        alt="">
+                </div>
+
+                <div class="box box-img box-amber row-2">
+                    <img src="https://img.freepik.com/free-photo/adding-glintwine-into-glass_114579-17152.jpg?uid=R225953803&ga=GA1.1.638220793.1764174460&semt=ais_hybrid&w=740&q=80"
+                        alt="">
+                </div>
+
+                <div class="box box-img box-green row-2">
+                    <img src="https://img.freepik.com/free-photo/marigold-lemon-honey-herbal-tea-treatment-concept_1150-25486.jpg?uid=R225953803&ga=GA1.1.638220793.1764174460&semt=ais_hybrid&w=740&q=80"
+                        alt="">
+                </div>
+                <div class="box box-img box-light-2 row-1">
+                    <img src="https://img.freepik.com/premium-photo/americano-served-with-sprinkle-cinnamon-cinnamon-stick-garnish_198067-745647.jpg?uid=R225953803&ga=GA1.1.638220793.1764174460&semt=ais_hybrid&w=740&q=80"
+                        alt="">
+                </div>
+            </div>
+
+            <!-- RIGHT TEXT -->
+            <div class="tea-text">
+                <h1><span>Great Tea</span>, Freshly Presented</h1>
+                <p>
+                    The meaning of gong cha is Chinese is to provide the best tea to emperor from all possessions. It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its customers because of good words of mouth and unique customized service originated from Taiwan.
+                </p>
+
+                <h2>Unique Taste</h2>
+                <p>A Unique and different style from other teapots gives a luxurious and minimalist impression.</p>
+
+                <h2>Premium Quality</h2>
+                <p>Premium quality that makes tea more elegant and more durable when you use it.</p>
+            </div>
+
         </div>
+    </section>
 
-        <!-- Card 3 -->
-        <div class="product-card">
-          <div class="product-icon icon-lemon">
-            <i class="fas fa-lemon fa-2x" style="color: white;"></i>
-          </div>
-          <h3>Refreshing Lemon Tea</h3>
-          <p>Zesty citrus with natural sweetness</p>
-          <div class="price">$4.49</div>
+
+    <!-- WHY CHOOSE US SECTION -->
+<section class="why-choose-us">
+  <div class="container">
+
+    <!-- Section Title -->
+    <div class="choose-title">
+      <h2>Why <span class="orange-gradient">Choose Us</span></h2>
+      <p>We are committed to providing the finest tea experience with unmatched quality and service that sets us apart from the rest.</p>
+    </div>
+
+    <!-- Features Grid -->
+    <div class="choose-grid">
+
+      <!-- Feature 1 -->
+      <div class="choose-card">
+        <div class="choose-icon green">
+          <i class="fas fa-leaf"></i>
         </div>
+        <h3>100% Organic</h3>
+        <p>All our teas are sourced from certified organic farms ensuring pure quality</p>
+      </div>
 
-        <!-- Card 4 -->
-        <div class="product-card">
-          <div class="product-icon icon-green">
-            <i class="fas fa-spa fa-2x" style="color: white;"></i>
-          </div>
-          <h3>Organic Green Tea</h3>
-          <p>Pure and delicate with health benefits</p>
-          <div class="price">$6.99</div>
+      <!-- Feature 2 -->
+      <div class="choose-card">
+        <div class="choose-icon orange">
+          <i class="fas fa-shipping-fast"></i>
         </div>
-
+        <h3>Fast Delivery</h3>
+        <p>Get your favorite tea delivered to your doorstep within 24-48 hours</p>
       </div>
-    </div>
-  </section>
 
-
-  <!-- NEW SECTION 1: Tea Pairing Guide -->
-<section class="pairing-section">
-  <div class="pairing-title">
-    <h2><span>Perfect</span> Pairings</h2>
-    <p>Elevate your tea experience with our expert pairing recommendations.</p>
-  </div>
-
-  <div class="pairing-grid">
-
-    <!-- Item 1 -->
-    <div class="pairing-card">
-      <div class="pairing-img-wrapper">
-        <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Scones">
-        <div class="overlay"></div>
+      <!-- Feature 3 -->
+      <div class="choose-card">
+        <div class="choose-icon purple">
+          <i class="fas fa-award"></i>
+        </div>
+        <h3>Award Winning</h3>
+        <p>Recognized globally for excellence in tea quality and customer service</p>
       </div>
-      <h3>English Breakfast</h3>
-      <p class="pair-desc">Scones & Clotted Cream</p>
-      <span class="tag classic">Classic</span>
-    </div>
 
-    <!-- Item 2 -->
-    <div class="pairing-card">
-      <div class="pairing-img-wrapper">
-        <img src="https://img.freepik.com/premium-photo/tea-cup-table-against-black-background_1048944-20153494.jpg?uid=R225953803&ga=GA1.1.638220793.1764174460&semt=ais_hybrid&w=740&q=80" alt="Chocolate">
-        <div class="overlay"></div>
+      <!-- Feature 4 -->
+      <div class="choose-card">
+        <div class="choose-icon blue">
+          <i class="fas fa-headset"></i>
+        </div>
+        <h3>24/7 Support</h3>
+        <p>Our dedicated team is always ready to assist you with any queries</p>
       </div>
-      <h3>Earl Grey</h3>
-      <p class="pair-desc">Dark Chocolate</p>
-      <span class="tag purple">Sophisticated</span>
-    </div>
 
-    <!-- Item 3 -->
-    <div class="pairing-card">
-      <div class="pairing-img-wrapper">
-        <img src="https://img.freepik.com/premium-photo/tea-cup-lemon-melissa-tea_263357-2033.jpg?uid=R225953803&ga=GA1.1.638220793.1764174460&semt=ais_hybrid&w=740&q=80" alt="Salmon">
-        <div class="overlay"></div>
-      </div>
-      <h3>Green Tea</h3>
-      <p class="pair-desc">Smoked Salmon</p>
-      <span class="tag green">Healthy</span>
     </div>
-
-    <!-- Item 4 -->
-    <div class="pairing-card">
-      <div class="pairing-img-wrapper">
-        <img src="https://img.freepik.com/premium-photo/traditional-indian-drink-turmeric-golden-milk_926199-2461502.jpg?uid=R225953803&ga=GA1.1.638220793.1764174460&semt=ais_hybrid&w=740&q=80" alt="Cheese">
-        <div class="overlay"></div>
-      </div>
-      <h3>Chai Tea</h3>
-      <p class="pair-desc">Spiced Cookies</p>
-      <span class="tag red">Warm</span>
-    </div>
-
   </div>
 </section>
+
+
 </body>
+
 </html>
