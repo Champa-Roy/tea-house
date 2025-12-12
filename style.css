@@ -283,3 +283,121 @@ header {
 .icon-green {
     background: linear-gradient(to bottom right, #4ade80, #10b981);
 }
+
+
+/* SECTION WRAPPER */
+.pairing-section {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+/* TITLE */
+.pairing-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.pairing-title h2 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.pairing-title h2 span {
+  background: linear-gradient(to right, orange, red);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.pairing-title p {
+  margin-top: 15px;
+  color: #555;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* GRID */
+.pairing-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* CARD */
+.pairing-card {
+  text-align: center;
+  cursor: pointer;
+}
+
+/* IMAGE WRAPPER */
+.pairing-img-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  height: 200px;
+}
+
+.pairing-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+
+.pairing-card:hover img {
+  transform: scale(1.1);
+}
+
+/* DARK HOVER OVERLAY */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.pairing-card:hover .overlay {
+  opacity: 1;
+}
+
+/* TEXT */
+.pairing-card h3 {
+  font-size: 22px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.pairing-card .pair-desc {
+  color: #666;
+  margin-bottom: 8px;
+}
+
+/* TAGS */
+.tag {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.tag.classic {
+  background: #ffe5c2;
+  color: #c46500;
+}
+
+.tag.purple {
+  background: #f1e4ff;
+  color: #7f3fbf;
+}
+
+.tag.green {
+  background: #dffbe3;
+  color: #198c3b;
+}
+
+.tag.red {
+  background: #ffe2e2;
+  color: #d62828;
+}
